@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+	background-color:#f1f1f1
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url(img/bg.jpg);
+    background-size: cover;
+	background-position:center middle;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 60px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: white;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: black;
+}
+.content p{
+    width: 55%;
+    color: georgian;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.copyright-text p {
+    text-align: center;
+    color: #767779;
+    font-size: 13px;
+}
+
+.copyright-area {
+    padding: 30px;
+    border-top:1px solid #23262c;
+}
+
+.contenta {
+    text-align: center;
+    color: #767779;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+	padding:50px 50px;
+}
+
+.row {
+    width: 1170px;
+    margin: auto;
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 2% 3%;
+    height: 700px;
+    margin: 0px;
+}
+.column h1 {
+    padding-bottom: 50px;
+}
+.forimage {
+    padding-top: 2%;
+    margin-top: 0px;
+    margin: 0px;
+    margin-left: 60px;
+}
+.gallery p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.picture {
+    float: left;
+    overflow: hidden;
+    width: 33.33%;
+    padding: 2% 3%;
+    margin: 0px;
+}
+
+.picture .image {
+    padding-top: 2px;
+ 
+}
+
+.columns {
+    float: left;
+    width: 50%;
+    padding: 2% 3%;
+    height: 500px;
+    margin: 0px;
+    text-align: center;
+}
+.columns h3 {
+    font-size: 28px;
+    color: blue;
+    padding-bottom: 25px;
+}
+.columns ul li {
+    list-style: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+.row .social-icons{
+	position: absolute;
+	bottom: 30%;
+	display:inline-block;
+	margin:auto;
+	left:550px;
+	right:50pxpx
+}
+
+.row .social-icons ul li{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.row .social-icons ul li a{
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 20px 25px;
+	font-size: 20px;
+	font-weight: 800;
+	border-radius: 13px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.row .social-icons ul li a:hover{
+	color: blue;
+	transform: translateY(-10px);
+	box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 1.0), 2px 10px 8px rgba(0, 0, 0, 1.0);
+}
+.footer-wrapper{
+	text-align:center;
+}
+.footer-wrapper button{
+	background:blue;
+	color:white;
+	padding:10px 10px;
+	border-radius:15px;
+}
